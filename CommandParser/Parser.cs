@@ -12,7 +12,7 @@ namespace CommandParser
         private String command
           {get; set;}
 
-        public Parser(){}
+        public Parser(){} 
 
 
         public Parser(String command)

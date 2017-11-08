@@ -10,7 +10,7 @@ namespace CommandParser
     public class Command
     {
         private string direction
-           {get; set;}
+           {get; set;} 
         private int distance
            {get; set;}
 

@@ -15,7 +15,7 @@ namespace CommandParser
             String a3 = "l10,r22,14,u11";
             String a4 = "x2z,r32,d1,u12";
             String a5 = "l24,r35,dx11y,u16";
-            String a6 = "l20,rr32,d1,u12";
+            String a6 = "l20,rr32,d1,u12"; 
             String a7 = "lx20,r32,d1,tu12";
           
 
