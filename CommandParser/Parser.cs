@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CommandParser
+namespace CommandParser 
 {
     //Contains the parsing logic
     public class Parser
-    {
+    { 
         private String command
           {get; set;}
 

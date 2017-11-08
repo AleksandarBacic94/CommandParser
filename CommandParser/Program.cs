@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CommandParser
 {
-    public class Program
+    public class Program 
     {
         static void Main(string[] args)
-        {
+        { 
             String a1 = "lx20,r32,d1,u12";
             String a2 = "22,r3,d11,u32";
             String a3 = "l10,r22,14,u11";
