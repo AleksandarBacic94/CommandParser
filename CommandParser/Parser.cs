@@ -4,27 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CommandParser 
+namespace CommandParser
 {
     //Contains the parsing logic
     public class Parser
-    { 
-        private String command
-          {get; set;}
+    {
+        private String Command 
+         {get; set;}
+        public bool badCmd;
 
-        public Parser(){} 
+        public Parser(){}
 
 
         public Parser(String command)
         {
-            this.command = command;
+            this.Command = command;
         }
 
         public List<Command> parseCommand()
         {
             List<Command> retVal = new List<Command>();
 
-            string[] cmds = command.Split(',');
+            string[] cmds = Command.Split(',');
 
             for(int i = 0; i <= cmds.Length-1; i++)
             {
@@ -45,7 +46,8 @@ namespace CommandParser
                         direction = "down";
                      else
                      {
-                        retVal = null;
+
+                        badCmd = true;                        
                         break;
                      }
                 }
